@@ -9,7 +9,7 @@ Distributed, open-source coordination service for destributed applications.
   distribution middleware.
 - Key Freatures:Concurrent, resource sharing, independent, global,greater fault tolerance
   and perofrmance ratio is much better.
-- Key Goals:Transparency, OPenness, Reliability, Performance, Scalability.
+- Key Goals:Transparency, Openness,reliability, Performance, Scalability.
 - Challenges:Security, Fault， Coordination and resource sharing.
 
 ## coordination challenge
@@ -20,5 +20,10 @@ Distributed, open-source coordination service for destributed applications.
 ## zookeeper architecture
 Every node contains its own in-memory databse, write requests to Leader node. after processing write requests,
 it send changes to follower nodes by Atomic Broadcst.
+![architecture](https://github.com/RogerGold/media/blob/master/zookeeper_architecture.PNG)
+
+![process](https://github.com/RogerGold/media/blob/master/zookeeper_process.PNG)
 
 ## zookeeper data model
+
+![datamodel](https://github.com/RogerGold/media/blob/master/zookeeper_modeldata.PNG)
